@@ -1,0 +1,534 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+  height: 2970px;
+  width: 2100px;
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+}
+
+.information
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.information .information2
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.photo
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* personelle */
+
+.personelle
+{
+  height: 100%;
+  width: 50%;
+  border-right: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.personelle .information
+{
+  height: 25%;
+}
+
+h1
+{
+  color: #23A0DB;
+}
+
+.language .titre-language
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.language .barre3
+{
+  display: flex;
+  align-items: center;
+  height:15px;
+  width:20%;
+  background-color: #23A0DB;
+}
+
+.language .barre4
+{
+  display: flex;
+  align-items: center;
+  height:15px;
+  width:28%;
+  background-color: #23A0DB;
+}
+
+.langue .titre-language
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.langue .barre3
+{
+  display: flex;
+  align-items: center;
+  height:15px;
+  width:20%;
+  background-color: #23A0DB;
+}
+
+.langue .barre4
+{
+  display: flex;
+  align-items: center;
+  height:15px;
+  width:55%;
+  background-color: #23A0DB;
+}
+
+.centre-interets .titre-language
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.centre-interets .barre3
+{
+  display: flex;
+  align-items: center;
+  height:15px;
+  width:20%;
+  background-color: #23A0DB;
+}
+
+.centre-interets .barre4
+{
+  display: flex;
+  align-items: center;
+  height:15px;
+  width:14%;
+  background-color: #23A0DB;
+}
+
+/* language html*/
+
+.language .html
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.language .html img
+{
+
+}
+
+.language .html .barre
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.language .html .barre .barre1
+{
+   height:75px;
+   width:90%;
+   border: 2px solid black;
+   margin-left: 2%;
+}
+
+.language .html .barre .barre1 .barre-html
+{
+   height:75px;
+   width:65%;
+   background-color: #E34C26;
+}
+
+/* language css */
+
+.language .css
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.language .css img
+{
+
+}
+
+.language .css .barre
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.language .css .barre .barre1
+{
+   height:75px;
+   width:90%;
+   border: 2px solid black;
+   margin-left: 2%;
+}
+
+.language .css .barre .barre1 .barre-css
+{
+   height:75px;
+   width:60%;
+   background-color: #4169E1;
+}
+
+/* language javascript */
+
+.language .javascript
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.language .javascript img
+{
+
+}
+
+.language .javascript .barre
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.language .javascript .barre .barre1
+{
+   height:75px;
+   width:90%;
+   border: 2px solid black;
+   margin-left: 2%;
+}
+
+.language .javascript .barre .barre1 .barre-javascript
+{
+   height:75px;
+   width:50%;
+   background-color: #F0DB4F;
+}
+
+/* language nodeJS */
+
+.language .nodeJS
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.language .nodeJS img
+{
+  width: 20%;
+}
+
+.language .nodeJS .barre
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.language .nodeJS .barre .barre1
+{
+   height:75px;
+   width:90%;
+   border: 2px solid black;
+   margin-left: 2%;
+}
+
+.language .nodeJS .barre .barre1 .barre-nodeJS
+{
+   height:75px;
+   width:40%;
+   background-color: #3C873A;
+}
+
+/* language angularJS */
+
+.language .angularJS
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.language .angularJS img
+{
+  width: 20%;
+}
+
+.language .angularJS .barre
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.language .angularJS .barre .barre1
+{
+   height:75px;
+   width:90%;
+   border: 2px solid black;
+   margin-left: 2%;
+}
+
+.language .angularJS .barre .barre1 .barre-angularJS
+{
+   height:75px;
+   width:25%;
+   background-color: #B52E31;
+}
+
+/* language PHP */
+
+.language .PHP
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.language .PHP img
+{
+  width: 22%;
+}
+
+.language .PHP .barre
+{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.language .PHP .barre .barre1
+{
+   height:75px;
+   width:90%;
+   border: 2px solid black;
+   margin-left: 2%;
+}
+
+.language .PHP .barre .barre1 .barre-PHP
+{
+   height:75px;
+   width:50%;
+   background-color: #4F5B93;
+}
+
+/* language Mysql */
+
+.language .Mysql
+{
+  display: flex;
+  flex-direction: row;
+}
+
+.language .Mysql img
+{
+  width: 17%;
+}
+
+.language .Mysql .barre
+{
+  margin: 0px 25px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.language .Mysql .barre .barre1
+{
+   height:75px;
+   width:95%;
+   border: 2px solid black;
+}
+
+.language .Mysql .barre .barre-Mysql
+{
+   height:37.5px;
+   width:30%;
+   background-color: #00758F;
+}
+
+.language .Mysql .barre .barre-Mysql2
+{
+   height:37.5px;
+   width:30%;
+   background-color: #F29111;
+}
+
+.professionnelle
+{
+  height: 100%;
+  width: 50%;
+  margin-left: 45px;
+  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.professionnelle h1
+{
+  color: #23A0DB;
+}
+
+/*  Formation */
+
+.professionnelle .Formations .barrep
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.professionnelle .Formations .barrep .barre-formation
+{
+  display: flex;
+  width: 10%;
+  height: 100%;
+}
+
+.professionnelle .Formations .barrep .barre-formation .barre2
+{
+   display: flex;
+   align-items: center;
+   height:15px;
+   width:100%;
+   background-color: #23A0DB;
+}
+
+.professionnelle .Formations .barrep .barre-formation2
+{
+  display: flex;
+  width: 68%;
+  height: 100%;
+}
+
+.professionnelle .Formations .barrep .barre-formation2 .barre3
+{
+   display: flex;
+   align-items: center;
+   height:15px;
+   width:100%;
+   background-color: #23A0DB;
+}
+
+/*  Experience professionnelle */
+
+.professionnelle .experiences .barrep
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.professionnelle .experiences .barrep .barre-formation
+{
+  display: flex;
+  width: 10%;
+  height: 100%;
+}
+
+.professionnelle .experiences .barrep .barre-formation .barre2
+{
+   display: flex;
+   align-items: center;
+   height:15px;
+   width:100%;
+   background-color: #23A0DB;
+}
+
+.professionnelle .experiences .barrep .barre-formation2
+{
+  display: flex;
+  width: 36%;
+  height: 100%;
+}
+
+.professionnelle .experiences .barrep .barre-formation2 .barre3
+{
+   display: flex;
+   align-items: center;
+   height:15px;
+   width:100%;
+   background-color: #23A0DB;
+}
+
+/*  Compétences */
+
+.professionnelle .competences .barrep
+{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.professionnelle .competences .barrep .barre-formation
+{
+  display: flex;
+  width: 10%;
+  height: 100%;
+}
+
+.professionnelle .competences .barrep .barre-formation .barre2
+{
+   display: flex;
+   align-items: center;
+   height:15px;
+   width:100%;
+   background-color: #23A0DB;
+}
+
+.professionnelle .competences .barrep .barre-formation2
+{
+  display: flex;
+  width: 65%;
+  height: 100%;
+}
+
+.professionnelle .competences .barrep .barre-formation2 .barre3
+{
+   display: flex;
+   align-items: center;
+   height:15px;
+   width:100%;
+   background-color: #23A0DB;
+}
+
+.competences .ranger
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
