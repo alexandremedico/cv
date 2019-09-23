@@ -13,6 +13,12 @@ body
   font-size: 2rem;
 }
 
+.photo img
+{
+  width: 75%;
+  transform: rotate(90deg);
+}
+
 .marge
 {
   margin-left: 3%;
