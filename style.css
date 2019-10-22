@@ -10,7 +10,6 @@ body
   width: 2100px;
   display: flex;
   flex-direction: row;
-  font-size: 2rem;
 }
 
 .photo img
@@ -21,7 +20,8 @@ body
 
 .marge
 {
-  margin-left: 3%;
+  margin-left: 4%;
+  margin-bottom: 2%;
 }
 
 .li
@@ -37,9 +37,9 @@ body
 .information
 {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; */
 }
 
 .information .information2
@@ -47,7 +47,11 @@ body
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+}
+
+.information .information2 p .loc, .information .information2 p .mail
+{
+  width: 5%;
 }
 
 .photo
@@ -58,21 +62,23 @@ body
   align-items: center;
 }
 
-/* personelle */
+/* personnelle */
 
-.personelle
+.personnelle
 {
   height: 100%;
   width: 50%;
   border-right: 2px solid black;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  font-size: 2.5rem;
 }
 
-.personelle .information
+.personnelle .information
 {
-  height: 25%;
+  height: 10%;
+  margin-bottom: 15%;
+  margin-top: 10%;
 }
 
 h1
@@ -85,6 +91,7 @@ h1
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 5%;
 }
 
 .language .barre3
@@ -101,7 +108,7 @@ h1
   display: flex;
   align-items: center;
   height:15px;
-  width:28%;
+  width:32%;
   background-color: #23A0DB;
 }
 
@@ -151,7 +158,7 @@ h1
   display: flex;
   align-items: center;
   height:15px;
-  width:14%;
+  width:18%;
   background-color: #23A0DB;
 }
 
@@ -161,11 +168,13 @@ h1
 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 1%;
 }
 
 .language .html img
 {
-
+  width: 10%;
 }
 
 .language .html .barre
@@ -196,11 +205,13 @@ h1
 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 1%;
 }
 
 .language .css img
 {
-
+  width: 10%;
 }
 
 .language .css .barre
@@ -231,11 +242,13 @@ h1
 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 1%;
 }
 
 .language .javascript img
 {
-
+  width: 10%;
 }
 
 .language .javascript .barre
@@ -266,11 +279,13 @@ h1
 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 1%;
 }
 
 .language .nodeJS img
 {
-  width: 20%;
+  width: 10%;
 }
 
 .language .nodeJS .barre
@@ -301,11 +316,13 @@ h1
 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 5%;
+  margin-left: 1%;
 }
 
 .language .angularJS img
 {
-  width: 20%;
+  width: 10%;
 }
 
 .language .angularJS .barre
@@ -330,27 +347,30 @@ h1
    background-color: #B52E31;
 }
 
-/* language PHP */
+/* language meteor */
 
-.language .PHP
+.language .meteor
 {
   display: flex;
   flex-direction: row;
+  margin-top: 7%;
+  margin-bottom: 5%;
+  margin-left: 1%;
 }
 
-.language .PHP img
+.language .meteor img
 {
-  width: 22%;
+  width: 10%;
 }
 
-.language .PHP .barre
+.language .meteor .barre
 {
   width: 100%;
   display: flex;
   align-items: center;
 }
 
-.language .PHP .barre .barre1
+.language .meteor .barre .barre1
 {
    height:75px;
    width:90%;
@@ -358,27 +378,29 @@ h1
    margin-left: 2%;
 }
 
-.language .PHP .barre .barre1 .barre-PHP
+.language .meteor .barre .barre1 .barre-meteor
 {
    height:75px;
    width:50%;
-   background-color: #4F5B93;
+   background-color: #F02E2E;
 }
 
-/* language Mysql */
+/* language php */
 
-.language .Mysql
+.language .php
 {
   display: flex;
   flex-direction: row;
+  margin-bottom: 15%;
+  margin-left: 1%;
 }
 
-.language .Mysql img
+.language .php img
 {
-  width: 17%;
+  width: 10%;
 }
 
-.language .Mysql .barre
+.language .php .barre
 {
   margin: 0px 25px;
   width: 100%;
@@ -387,30 +409,23 @@ h1
   flex-direction: column;
 }
 
-.language .Mysql .barre .barre1
+.language .php .barre .barre1
 {
    height:75px;
    width:95%;
    border: 2px solid black;
 }
 
-.language .Mysql .barre .barre-Mysql
+.language .php .barre .barre-php
 {
-   height:37.5px;
+   height:75px;
    width:30%;
-   background-color: #00758F;
-}
-
-.language .Mysql .barre .barre-Mysql2
-{
-   height:37.5px;
-   width:30%;
-   background-color: #F29111;
+   background-color: #474A8A;
 }
 
 .language .langue
 {
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 
 .professionnelle
@@ -418,24 +433,37 @@ h1
   height: 100%;
   width: 50%;
   margin-left: 45px;
-  font-size: 3rem;
+  font-size: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
 
-.professionnelle h1, .professionnelle h2
+h2
 {
   color: #23A0DB;
 }
 
+.professionnelle h1
+{
+  font-size: 4rem;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
 /*  Formation */
+
+.professionnelle .mail
+{
+  width: 5%;
+}
 
 .professionnelle .Formations .barrep
 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 3%;
 }
 
 .professionnelle .Formations .barrep .barre-formation
@@ -470,13 +498,24 @@ h1
    background-color: #23A0DB;
 }
 
+.Formations .ifocop, .Formations .it, .experiences .cinov, .experiences .interim
+{
+  margin-bottom: 5%;
+}
+
 /*  Experience professionnelle */
+
+.professionnelle .titre p
+{
+  text-align: center;
+}
 
 .professionnelle .experiences .barrep
 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 3%;
 }
 
 .professionnelle .experiences .barrep .barre-formation
