@@ -37,9 +37,6 @@ body
 .information
 {
   display: flex;
-  /* flex-direction: column;
-  justify-content: space-around;
-  align-items: center; */
 }
 
 .information .information2
@@ -381,7 +378,7 @@ h1
 .language .meteor .barre .barre1 .barre-meteor
 {
    height:75px;
-   width:50%;
+   width:25%;
    background-color: #F02E2E;
 }
 
