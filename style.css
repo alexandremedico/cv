@@ -303,7 +303,7 @@ h1
 .language .nodeJS .barre .barre1 .barre-nodeJS
 {
    height:75px;
-   width:40%;
+   width:50%;
    background-color: #3C873A;
 }
 
@@ -340,7 +340,7 @@ h1
 .language .angularJS .barre .barre1 .barre-angularJS
 {
    height:75px;
-   width:25%;
+   width:50%;
    background-color: #B52E31;
 }
 
@@ -378,7 +378,7 @@ h1
 .language .meteor .barre .barre1 .barre-meteor
 {
    height:75px;
-   width:25%;
+   width:50%;
    background-color: #F02E2E;
 }
 
