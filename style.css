@@ -192,7 +192,7 @@ h1
 .language .html .barre .barre1 .barre-html
 {
    height:75px;
-   width:65%;
+   width:75%;
    background-color: #E34C26;
 }
 
@@ -229,7 +229,7 @@ h1
 .language .css .barre .barre1 .barre-css
 {
    height:75px;
-   width:60%;
+   width:70%;
    background-color: #4169E1;
 }
 
@@ -266,7 +266,7 @@ h1
 .language .javascript .barre .barre1 .barre-javascript
 {
    height:75px;
-   width:50%;
+   width:60%;
    background-color: #F0DB4F;
 }
 
@@ -303,7 +303,7 @@ h1
 .language .nodeJS .barre .barre1 .barre-nodeJS
 {
    height:75px;
-   width:40%;
+   width:55%;
    background-color: #3C873A;
 }
 
@@ -340,7 +340,7 @@ h1
 .language .angularJS .barre .barre1 .barre-angularJS
 {
    height:75px;
-   width:25%;
+   width:50%;
    background-color: #B52E31;
 }
 
@@ -378,7 +378,7 @@ h1
 .language .meteor .barre .barre1 .barre-meteor
 {
    height:75px;
-   width:25%;
+   width:40%;
    background-color: #F02E2E;
 }
 
@@ -416,7 +416,7 @@ h1
 .language .php .barre .barre-php
 {
    height:75px;
-   width:30%;
+   width:40%;
    background-color: #474A8A;
 }
 
