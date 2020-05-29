@@ -15,7 +15,7 @@ Ce qu'il est requis pour commencer avec votre projet...
 
 - Vs code ou un programme similaire.
 
-- un serveur Apache.
+- un Serveur Apache.
 
 ### Installation
 
